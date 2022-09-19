@@ -1,0 +1,215 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #131313;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 122rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+/* Header */
+.header__inner {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Menu */
+.menu {
+  margin-right: 7rem;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__item + .menu__item {
+  padding-left: 1rem;
+}
+
+.menu__link {
+  text-transform: uppercase;
+  padding: 4.3rem 2rem;
+  transition: all 0.3s;
+}
+
+.menu__link:hover {
+  background-color: #00205f;
+  color: #fff;
+}
+
+/* Car */
+.car {
+  padding: 10rem 0 15rem;
+}
+
+.car__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.car__title {
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 7.7rem;
+  margin: 7rem 0 0.5rem;
+}
+
+.car__subtitle {
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 3.8rem;
+  color: #6f6f6f;
+  margin: 0 0 6rem;
+}
+
+.car__text {
+  max-width: 43rem;
+  margin-bottom: 2rem;
+}
+
+.car__link {
+  margin-top: 8rem;
+  display: inline-block;
+  padding: 2.8rem 7.1rem;
+
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1.1em;
+
+  background-color: #00205f;
+  color: #fff;
+}
+
+/* Slider-car */
+.car__column-slider {
+  flex-basis: 63rem;
+  margin-left: 3rem;
+  max-width: 63rem;
+}
+
+.car-slider .slick-dots {
+  right: 0;
+  top: 5rem;
+}
+
+.slick-dots {
+  position: absolute;
+  top: 0;
+}
+
+.slick-dots li + li {
+  padding-top: 1rem;
+}
+
+.slick-dots button {
+  font-size: 0;
+  padding: 0;
+  border: none;
+
+  width: 0.2rem;
+  height: 2.5rem;
+  border-radius: 0.7rem;
+  cursor: pointer;
+
+  background-color: #131313;
+  transition: all 0.3s;
+}
+.slick-dots button:hover,
+.slick-active button {
+  background-color: #ff4040;
+}
+
+.car__list {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.car__list-item {
+  min-width: 16rem;
+  min-height: 5.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+.car__list-num {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.car__list-text {
+  margin: auto 0;
+
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+/* Info */
+.info {
+  margin-bottom: 15rem;
+}
+
+.info__inner {
+  display: flex;
+}
+
+.info__img {
+  margin-right: 6rem;
+  flex-basis: 57rem;
+  object-fit: covers;
+}
+
+.info__list {
+  flex-basis: 49rem;
+}
+
+.info__item + .info__item {
+  padding-top: 5rem;
+}
+
+.info__item-title {
+  margin: 0 0 1rem;
+
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  text-transform: uppercase;
+}
+
+.info__item-text {
+  max-width: 45rem;
+}
