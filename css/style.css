@@ -271,3 +271,12 @@ p {
 .characteristics__desc {
   flex-basis: 28.5rem;
 }
+
+/* Slider */
+.slider {
+  margin-bottom: 5rem;
+}
+
+.slider__item {
+  padding-left: 5rem;
+}
