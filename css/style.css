@@ -280,3 +280,46 @@ p {
 .slider__item {
   padding-left: 5rem;
 }
+
+/* Price */
+.price {
+  margin-bottom: 10rem;
+}
+
+.form {
+  max-width: 42rem;
+}
+
+.form__title {
+  margin-bottom: 4rem;
+
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  text-transform: uppercase;
+}
+
+.form__text {
+  max-width: 30rem;
+  margin-bottom: 3rem;
+}
+
+.form__input-name,
+.form__input-tel {
+  width: 100%;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  border: none;
+  border-bottom: 0.1rem solid #131313;
+  outline: none;
+}
+
+.form__input-name::placeholder,
+.form__input-tel::placeholder,
+.form__input-text {
+  color: #6f6f6f;
+  opacity: 0.5;
+}
+
+.form__input-text {
+  margin-bottom: 1rem;
+}
