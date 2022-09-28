@@ -1,5 +1,6 @@
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -73,7 +74,7 @@ p {
 
 /* Car */
 .car {
-  padding: 10rem 0 15rem;
+  padding: 10rem 0 7.5rem;
 }
 
 .car__inner {
@@ -113,6 +114,11 @@ p {
   color: #fff;
 
   background-color: #00205f;
+  transition: all 0.3s;
+}
+
+.car__link:hover {
+  background-color: #ff4040;
 }
 
 /* Slider-car */
@@ -185,7 +191,8 @@ p {
 
 /* Info */
 .info {
-  margin-bottom: 15rem;
+  padding-top: 7.5rem;
+  margin-bottom: 7.5rem;
 }
 
 .info__inner {
@@ -220,7 +227,8 @@ p {
 
 /* Characteristics */
 .characteristics {
-  margin-bottom: 15rem;
+  padding-top: 7.5rem;
+  margin-bottom: 7.5rem;
 }
 
 .characteristics__head {
@@ -274,6 +282,7 @@ p {
 
 /* Slider */
 .slider {
+  padding-top: 7.5rem;
   margin-bottom: 5rem;
 }
 
@@ -418,4 +427,51 @@ p {
   cursor: pointer;
 
   background: #00205f;
+  transition: all 0.3s;
+}
+
+.form__btn:hover {
+  background-color: #ff4040;
+}
+
+/* Footer */
+.footer {
+  background-color: #000000;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10rem;
+}
+
+.footer__link {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer__social-link + .footer__social-link {
+  margin-left: 2.8rem;
+}
+
+.footer__contacts-link {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #fff;
+}
+
+.footer__contacts-link {
+  display: flex;
+  align-items: center;
+}
+
+.footer__contacts-link + .footer__contacts-link {
+  margin-top: 1rem;
+}
+
+.footer__contacts-img {
+  margin-right: 1rem;
 }
