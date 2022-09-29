@@ -290,12 +290,12 @@ p {
   padding-left: 5rem;
 }
 
-/* Price */
-.price {
+/* Order */
+.order {
   margin-bottom: 10rem;
 }
 
-.price__inner {
+.order__inner {
   position: relative;
 }
 
@@ -404,15 +404,18 @@ p {
 
 .form__radio-style--blue {
   background: #0094c4;
+  cursor: pointer;
 }
 
 .form__radio-style--white {
   border: 1px solid #6f6f6f;
   background: #fff;
+  cursor: pointer;
 }
 
 .form__radio-style--yellow {
   background: #dfea5c;
+  cursor: pointer;
 }
 
 .form__btn {
