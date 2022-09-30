@@ -478,3 +478,54 @@ p {
 .footer__contacts-img {
   margin-right: 1rem;
 }
+
+@media (max-width: 991px) {
+  /* Menu */
+  .menu {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 640px) {
+  /* Header */
+  .header__inner {
+    display: block;
+    text-align: center;
+  }
+
+  /* Menu*/
+  .menu {
+    margin-top: 5rem;
+  }
+
+  .menu__list {
+    justify-content: space-evenly;
+  }
+
+  .menu__item + .menu__item {
+    padding-left: 0;
+  }
+
+  .menu__link {
+    padding: 2.5rem 2rem;
+  }
+}
+
+@media (max-width: 460px) {
+  /* Menu */
+  .menu__list {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 380px) {
+  /* Menu */
+  .menu {
+    margin-top: 3rem;
+  }
+
+  .menu__link {
+    padding: 2rem 1rem;
+    font-size: 1.3rem;
+  }
+}
