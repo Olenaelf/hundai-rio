@@ -505,6 +505,24 @@ p {
     max-width: 100%;
     margin-left: 0;
   }
+
+  /* Info */
+  .info__img {
+    display: none;
+  }
+
+  .info__list {
+    flex-basis: 100%;
+  }
+
+  .info__item-text {
+    max-width: 100%;
+  }
+
+  .info {
+    padding-top: 5.5rem;
+    margin-bottom: 5.5rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -558,6 +576,11 @@ p {
   .car__list-item {
     min-width: 50%;
     margin-bottom: 2rem;
+  }
+
+  /* Info */
+  .info__item + .info__item {
+    padding-top: 3rem;
   }
 }
 
