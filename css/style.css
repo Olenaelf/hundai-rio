@@ -561,12 +561,24 @@ p {
   .characteristics__desc {
     flex-basis: 50%;
   }
+
+  /* Slider */
+  .slider__img {
+    object-fit: cover;
+    height: 55rem;
+  }
 }
 
 @media (max-width: 991px) {
   /* Menu */
   .menu {
     margin-right: 0;
+  }
+
+  /* Slider */
+  .slider__img {
+    object-fit: cover;
+    height: 50rem;
   }
 }
 
@@ -632,6 +644,12 @@ p {
     margin-bottom: 3rem;
     width: 100%;
   }
+
+  /* Slider */
+  .slider__img {
+    object-fit: cover;
+    height: 32rem;
+  }
 }
 
 @media (max-width: 460px) {
@@ -645,6 +663,11 @@ p {
     padding: 2rem 4rem;
     font-size: 1.6rem;
     letter-spacing: 1em;
+  }
+
+  /* Slider */
+  .slider {
+    display: none;
   }
 }
 
