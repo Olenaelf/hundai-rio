@@ -567,6 +567,19 @@ p {
     object-fit: cover;
     height: 55rem;
   }
+
+  /* Order */
+  .order {
+    margin-bottom: 5rem;
+  }
+
+  .form__car-img {
+    width: 50rem;
+  }
+
+  .form__car {
+    padding-top: 8rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -579,6 +592,33 @@ p {
   .slider__img {
     object-fit: cover;
     height: 50rem;
+  }
+
+  /* Order */
+  .form__label-box {
+    margin-bottom: 30rem;
+  }
+
+  .form__car {
+    padding-top: 0;
+    top: 31rem;
+    left: 0;
+  }
+
+  .form__car-img {
+    width: 44rem;
+  }
+
+  .form__car-price {
+    left: 68rem;
+  }
+}
+
+@media (max-width: 850px) {
+  /* Order */
+  .form__car-price {
+    top: -3.2rem;
+    left: 47rem;
   }
 }
 
@@ -650,6 +690,18 @@ p {
     object-fit: cover;
     height: 32rem;
   }
+
+  /* Order */
+  .form__car-price {
+    font-size: 2.2rem;
+    top: -2.2rem;
+    left: 9.5rem;
+    border: 0;
+  }
+
+  .form__car-price::after {
+    border: 0;
+  }
 }
 
 @media (max-width: 460px) {
@@ -658,11 +710,27 @@ p {
     justify-content: space-between;
   }
 
-  /* Car*/
-  .car__link {
+  /* Car, Order */
+  .car__link,
+  .form__btn {
     padding: 2rem 4rem;
     font-size: 1.6rem;
     letter-spacing: 1em;
+  }
+
+  .form__car-img {
+    width: 37rem;
+  }
+
+  .form__label-box {
+    margin-bottom: 26rem;
+  }
+
+  .form__car-price {
+    font-size: 1.8rem;
+    top: -2.2rem;
+    left: 7.5rem;
+    border: 0;
   }
 
   /* Slider */
@@ -690,5 +758,18 @@ p {
   .car__subtitle {
     margin: 0 0 1.5rem;
     font-size: 2.2rem;
+  }
+
+  /* Order */
+  .form__car {
+    padding-top: 9px;
+  }
+
+  .form__car-img {
+    width: 33rem;
+  }
+
+  .form__label-box {
+    margin-bottom: 24rem;
   }
 }
