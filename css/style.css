@@ -484,6 +484,16 @@ p {
 }
 
 @media (max-width: 1120px) {
+  /* Menu */
+  .menu__link:hover {
+    background-color: transparent;
+    color: #131313;
+  }
+
+  .menu__link {
+    transition: all 0s;
+  }
+
   /* Car */
   .car {
     padding: 0;
@@ -503,6 +513,12 @@ p {
 
   .car__link {
     margin-top: 3rem;
+    transition: all 0s;
+  }
+
+  .car__link:hover {
+    background-color: #00205f;
+    color: #fff;
   }
 
   .car__column-slider {
@@ -610,15 +626,14 @@ p {
   }
 
   .form__car-price {
-    left: 68rem;
+    font-size: 2.2rem;
+    top: -2.2rem;
+    left: 9.5rem;
+    border: 0;
   }
-}
 
-@media (max-width: 850px) {
-  /* Order */
-  .form__car-price {
-    top: -3.2rem;
-    left: 47rem;
+  .form__car-price::after {
+    border: 0;
   }
 }
 
@@ -691,16 +706,23 @@ p {
     height: 32rem;
   }
 
-  /* Order */
-  .form__car-price {
-    font-size: 2.2rem;
-    top: -2.2rem;
-    left: 9.5rem;
-    border: 0;
+  /* Footer*/
+  .footer__inner {
+    display: block;
+    height: auto;
+    padding: 3rem 0;
+    text-align: center;
   }
 
-  .form__car-price::after {
-    border: 0;
+  .footer__social {
+    padding: 2rem 0;
+  }
+
+  .footer__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
   }
 }
 
@@ -766,7 +788,7 @@ p {
   }
 
   .form__car-img {
-    width: 33rem;
+    width: 31rem;
   }
 
   .form__label-box {
